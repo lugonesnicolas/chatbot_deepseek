@@ -1,0 +1,14 @@
+# Node.js y Vite
+node_modules/
+dist/
+.env
+.vscode/
+
+# Go
+bin/
+*.exe
+*.log
+*.db
+
+# Ollama
+*.ollama
