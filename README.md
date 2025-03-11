@@ -28,17 +28,13 @@ cd chatbot-deepseek
    ```
 3. Descarga el modelo **DeepSeek Coder**:
    ```sh
-   ollama pull deepseek-coder
+   ollama pull deepseek-r1:7b
    ```
 
 ### 🔹 3. Backend en Go
-1. Instalar dependencias:
+1. Ejecutar la API:
    ```sh
-   cd api
-   go mod tidy
-   ```
-2. Ejecutar la API:
-   ```sh
+   cd cmd
    go run main.go
    ```
    - La API se ejecutará en `http://localhost:8080`.
