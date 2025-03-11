@@ -17,7 +17,7 @@ function App() {
     setIsTyping(true); // Mostrar animación de escribiendo...
 
     try {
-      const res = await fetch("http://192.168.1.36:8080/chat", {
+      const res = await fetch("http://localhost:8080/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message }),

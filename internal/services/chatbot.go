@@ -19,7 +19,7 @@ func QueryOllama(prompt string) (string, error) {
 	url := "http://localhost:11434/api/generate"
 
 	data := OllamaRequest{
-		Model:  "deepseek-coder:6.7b",
+		Model:  "deepseek-r1:7b",
 		Prompt: prompt,
 		Stream: false,
 	}
